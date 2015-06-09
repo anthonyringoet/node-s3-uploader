@@ -16,7 +16,7 @@ node_modules/
 test_output/
 .vagrant/
 env/
-lib/
+# lib/
 
 .DS_Store
 .idea
