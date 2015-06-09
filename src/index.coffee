@@ -1,6 +1,6 @@
 S3 = require('aws-sdk').S3
 fs = require 'fs'
-gm = require('gm').subClass imageMagick: true
+gm = require('gm').subClass imageMagick: false
 mapLimit = require('async').mapLimit
 
 hash = require('crypto').createHash
